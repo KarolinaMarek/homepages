@@ -1,0 +1,10 @@
+.gallery {
+    text-align: center;
+}
+
+.gallery__image {
+    width: 250px;
+    display: inline-block;
+    margin: 20px;
+    box-shadow: 5px 5px 10px #424d5c;
+}

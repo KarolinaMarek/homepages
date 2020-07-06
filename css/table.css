@@ -1,0 +1,55 @@
+.containerTable {
+    overflow-x: auto;
+}
+
+.table {
+    margin: 10px auto;
+    border: 2px solid currentColor;
+    border-collapse: collapse;
+}
+
+.table__caption {
+    color: #424d5c;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5rem;
+    padding: 20px;
+}
+
+.table__header {
+    background-color: #2b2d42;
+    color: #edf2f4;
+}
+
+.table__cell {
+    border: 1px solid currentColor;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.table__trackItem {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.table__trackItem--blue {
+    background-color: blue;
+}
+
+.table__trackItem--red {
+    background-color: red;
+}
+
+.table__trackItem--yellow {
+    background-color: yellow;
+}
+
+.table__imageItem {
+    width: 30px;
+}
+
+.table__imageItem--yes {
+    width: 30px;
+}

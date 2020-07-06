@@ -1,0 +1,13 @@
+.banner {
+    text-align: center;
+}
+
+.banner__header {
+    color: #2b2d42;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.banner__header-basis {
+    color: #d90429;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karolina Marek</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/banner.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/section.css">
+    <link rel="stylesheet" href="./css/gallery.css">
+    <link rel="stylesheet" href="./css/table.css">
+    <link rel="stylesheet" href="./css/footer.css">
+    <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__link" href="#about-me">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#it">IT</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#passion">Pasje</a></li>
+            <li class="navigation__item"><a class="navigation__link" href="#contact">Kontakt</a></li>
+        </ul>
+    </nav>
+    <header class="banner">
+        <h1 class="banner__header">Karolina Marek - <b class="banner__header-basis">Junior frontend developer</b></h1>
+    </header>
+
+    <main class="main">
+        <section class="section" id="about-me">
+            <h2 class="section__header">O mnie</h2>
+            <img class="section__image" src="https://cdn.pixabay.com/photo/2016/06/15/16/00/woman-1459220_960_720.png"
+                alt="Karolina Marek">
+            <button class="section__button section__button--delete">Usuń zdjęcie</button>
+            <p class="section__paragraph">
+                Dzień dobry, cześć! <br>
+                Nazywam się Karolina Marek. Mieszkam w Lublinie, skąd też pochodzę. Moją pasją jest gotowanie, a także
+                wycieczki
+                rowerowe. Pracowałam jako kucharz. Od niedawna uczę się tworzyć stony internetowe. Przeszłam także
+                szkolenie
+                z
+                testowania oprogramowania.
+            </p>
+        </section>
+
+        <section class="section" id="it">
+            <h2 class="section__header">IT</h2>
+            <h3 class="section__subHeader">Testowanie</h3>
+            <p class="section__paragraph">
+                W grudniu 2019 roku odbyłam szkolenie <span>"Zostań Testerem"</span> organizowanym
+                przez
+                Sii.
+                <strong>
+                    Posiadam
+                    certyfikat
+                    ISTQB. </strong>
+            </p>
+            <h3 class="section__subHeader">Frontend</h3>
+            <p class="section__paragraph">
+                Aby być <em>dobrym testerem</em> nie wystarczy tylko wiedza z zakresu
+                testowania.
+                Tak
+                więc zaczełam uczyć
+                się nowych
+                technologii wykorzystywanych w IT. Skończyłam darmowy kurs online <span>"HTML & CSS od
+                    podstaw"</span> od
+                youcode.pl.
+                Obecnie
+                uczę się programować w JavaScript w internetowym kursie <span>"Frontend Developer od
+                    podstaw"</span> na tej
+                samej
+                platformie.
+            </p>
+            <h3 class="section__subHeader">SQL</h3>
+            <p class="section__paragraph">
+                Jęzka baz danych uczyłam się z książki " <i> SQL w mgnieniu oka. Opanuj język
+                    zapytań w
+                    10 minut
+                    dziennie</i>" a
+                także
+                podczas szkolenia "Zostań Testerem". Zdobytą wiedzę ćwiczyłam razem z hackerrank.
+            </p>
+        </section>
+
+        <section class="section passion" id="passion">
+            <h2 class="section__header">Pasje</h2>
+            <h3 class="section__subHeader">Wyprawy rowerowe</h3>
+            <p class="section__paragraph">
+                Moją niedawno odkrytą pasją jest jazda na rowerze. Narazie są to wycieczki jedniodniowe po szlakach
+                w okolicach
+                Lublina.
+                W planch mam też kilkudniowe wyprawy z sakwami. Moim marzeniem jest wyprawa rowerem po Nowej
+                Zelandii.
+            </p>
+            <div class="gallery">
+                <img class="gallery__image"
+                    src="https://cdn.pixabay.com/photo/2014/09/07/21/59/bicycle-438400_960_720.jpg" alt="Rower">
+                <img class="gallery__image"
+                    src="https://cdn.pixabay.com/photo/2020/05/26/10/41/sunset-5222626_960_720.jpg" alt="Rower">
+                <img class="gallery__image"
+                    src="https://cdn.pixabay.com/photo/2017/08/01/00/37/architecture-2562316_960_720.jpg" alt="Rower">
+            </div>
+            <div class="containerTable">
+                <table class="table">
+                    <caption class="table__caption">Szlaki i trasy turystyczne w pobliżu Lublina</caption>
+                    <thead>
+                        <tr>
+                            <th class="table__header table__cell" scope="col">Nazwa</th>
+                            <th class="table__header table__cell" scope="col">Początek/koniec</th>
+                            <th class="table__header table__cell" scope="col">Rodzaj szlaku</th>
+                            <th class="table__header table__cell" scope="col">Kolor szlaku</th>
+                            <th class="table__header table__cell" scope="col">Długość <br>(w km)</th>
+                            <th class="table__header table__cell" scope="col">Zaliczony / <br>
+                                niezaliczony
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="table__header table__cell" scope="row">Szlak "Doliną Ciemięgi"</th>
+                            <td class="table__cell">Lublin Muzeum Wsi Lubelskiej / Lublin Ponikwoda</td>
+                            <td class="table__cell">Pieszy</td>
+                            <td class="table__cell">Niebieski <br>
+                                <div class="table__trackItem table__trackItem--blue"></div>
+                            </td>
+                            <td class="table__cell">25,9</td>
+                            <td class="table__cell table__cell--check">
+                                <img class="table__imageItem"
+                                    src="https://cdn.pixabay.com/photo/2013/07/12/12/44/cancel-146131_960_720.png"
+                                    alt="Niezaliczony">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="table__header table__cell" scope="row">Szlak "Wyżynny"</th>
+                            <td class="table__cell">Lublin Muzeum Wsi Lubelskiej / Kazimierz Dolny</td>
+                            <td class="table__cell">Pieszy</td>
+                            <td class="table__cell">Czerwony <br>
+                                <div class="table__trackItem table__trackItem--red"></div>
+                            </td>
+                            <td class="table__cell">60,8</td>
+                            <td class="table__cell table__cell--check">
+                                <img class="table__imageItem"
+                                    src="https://cdn.pixabay.com/photo/2013/07/12/12/44/cancel-146131_960_720.png"
+                                    alt="Niezaliczony">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="table__header table__cell" scope="row">Szlak Lublin - Kazimierz
+                                Dolny
+                            </th>
+                            <td class="table__cell">Lublin Muzeum Wsi Lubelskiej / Kazimierz Dolny</td>
+                            <td class="table__cell">Rowerowy</td>
+                            <td class="table__cell">Czerwony <br>
+                                <div class="table__trackItem table__trackItem--red"></div>
+                            </td>
+                            <td class="table__cell">61,4</td>
+                            <td class="table__cell table__cell--check">
+                                <img class="table__imageItem"
+                                    src="https://cdn.pixabay.com/photo/2013/07/12/12/44/cancel-146131_960_720.png"
+                                    alt="Niezaliczony">
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="table__header table__cell" scope="row">Szlak rowerowy po gminie
+                                Głusk
+                            </th>
+                            <td class="table__cell">Prawiedniki / Lublin</td>
+                            <td class="table__cell">Rowerowy</td>
+                            <td class="table__cell">Zółty <br>
+                                <div class="table__trackItem table__trackItem--yellow"></div>
+                            </td>
+                            <td class="table__cell">37,1</td>
+                            <td class="table__cell table__cell--check">
+                                <img class="table__imageItem"
+                                    src="https://cdn.pixabay.com/photo/2013/07/12/12/44/cancel-146131_960_720.png"
+                                    alt="Niezaliczony">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="section contact" id="contact">
+            <h2 class="section__header">Kontakt</h2>
+            <p class="section__paragraph"><a class="section__link" href="mailto:karolinaw1211@gmail.com"> e-mail:
+                    karolinaw1211@gmail.com</a></p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__paragraph">Karolina Marek</p>
+    </footer>
+
+</body>
+
+</html>

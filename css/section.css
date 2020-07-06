@@ -1,0 +1,57 @@
+.section {
+    color: #2b2d42;
+}
+
+.section__header {
+    color: rgb(45, 51, 59);
+    padding-top: 10px;
+}
+
+.section__subHeader {
+    color: rgb(66, 77, 92);
+}
+
+.section__image {
+    width: 250px;
+    display: block;
+    margin: 10px auto;
+}
+
+.js-section__withoutImage {
+    display: none;
+}
+
+.section__button {
+    border: 2px solid #2b2d42;
+    background-color: #2b2d42;
+    padding: 10px 20px;
+    color: #edf2f4;
+    font-size: 16px;
+    margin: 5px auto;
+    box-shadow: 5px 5px 10px #424d5c;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.section__button:hover {
+    background-color: transparent;
+    color: #2b2d42;
+    border-color: transparent;
+}
+
+.section__button--delete {
+    display: block;
+}
+
+.section__paragraph {
+    line-height: 1.5;
+}
+
+.section__link {
+    color: #2b2d42;
+    text-decoration: none;
+}
+
+.section__link:hover {
+    color: #d90429;
+}
